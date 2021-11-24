@@ -1,0 +1,12 @@
+{
+    "name": "root/app",
+    "require-dev": {
+        "behat/behat": "^3.10",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Root\\App\\": "src/"
+        }
+    }
+}
